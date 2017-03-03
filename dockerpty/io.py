@@ -99,7 +99,6 @@ class Stream(object):
         """
         Return the fileno() of the file descriptor.
         """
-
         return self.fd.fileno()
 
     def set_blocking(self, value):
